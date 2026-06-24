@@ -1,12 +1,23 @@
-/* BootstrapExample:- */
+/* Material UI Example:- */
 import { createRoot } from 'react-dom/client'
-import BootstrapExample from './Components/BootstrapExample'
+import MUIExample from './Components/MUIExample'
 
 createRoot(document.getElementById('root')).render(
   <>
-    <BootstrapExample/>
+    <MUIExample/>
   </>
 )
+
+
+/* BootstrapExample:- */
+// import { createRoot } from 'react-dom/client'
+// import BootstrapExample from './Components/BootstrapExample'
+
+// createRoot(document.getElementById('root')).render(
+//   <>
+//     <BootstrapExample/>
+//   </>
+// )
 
 
 /* RoutingExample:- */
